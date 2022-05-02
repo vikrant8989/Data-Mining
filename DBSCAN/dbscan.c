@@ -44,6 +44,9 @@ void plot(int clid, int n)
 		glBegin(GL_POINTS);
 		switch (setofpoints[i].cluster_id)
 		{
+		case 0:
+			glColor3f(0, 0, 0);
+			break;		
 		case 1:
 			glColor3f(1, 0, 0);
 			break;
